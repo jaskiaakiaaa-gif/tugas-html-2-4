@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
- <meta charset="UTF-8">
- <title>Latihan JavaScript</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
- <h2>Belajar JavaScript</h2>
- <script>
-  let angka1 = parseInt(prompt("Masukkan angka pertama:"));
-let angka2 = parseInt(prompt("Masukkan angka kedua:"));
-let hasil = angka1 + angka2;
-alert("Hasil penjumlahan = " + hasil);
- // Kode JavaScript ditulis di sini
- </script>
+   <script>
+    let usia = parseInt(prompt("Masukkan usia kalian:"));
+    if (usia < 13) {
+        alert("Anak-anak");
+     } else if (usia <= 17) {
+        alert("Remaja");
+     } else {
+        alert("Dewasa");
+     }
+   </script> 
 </body>
 </html>
